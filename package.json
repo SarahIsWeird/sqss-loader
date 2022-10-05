@@ -1,6 +1,6 @@
 {
-    "name": "sqss-loader",
-    "version": "1.0.0",
+    "name": "@sarahisweird/sqss-loader",
+    "version": "0.0.1",
     "description": "A webpack SQSS loader.",
     "main": "src/sqss-loader.js",
     "scripts": {
@@ -39,5 +39,8 @@
         "style-loader": {
             "optional": true
         }
+    },
+    "publishConfig": {
+        "access": "public"
     }
 }
