@@ -20,7 +20,7 @@ module.exports = {
         rules: [
             {
                 test: /\.sql$/i,
-                use: [ 'style-loader', 'css-loader', 'sqss-loader' ],
+                use: [ 'style-loader', 'css-loader', '@sarahisweird/sqss-loader' ],
             },
         ],
     },
