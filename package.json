@@ -1,0 +1,43 @@
+{
+    "name": "sqss-loader",
+    "version": "1.0.0",
+    "description": "A webpack SQSS loader.",
+    "main": "src/sqss-loader.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "build": "webpack --mode production"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/SarahIsWeird/sqss-loader.git"
+    },
+    "keywords": [
+        "sqss",
+        "webpack",
+        "wtfpl"
+    ],
+    "author": "SarahIsWeird",
+    "license": "WTFPL",
+    "bugs": {
+        "url": "https://github.com/SarahIsWeird/sqss-loader/issues"
+    },
+    "homepage": "https://github.com/SarahIsWeird/sqss-loader#readme",
+    "devDependencies": {
+        "webpack": "^5.74.0",
+        "webpack-cli": "^4.10.0"
+    },
+    "peerDependencies": {
+        "@dthung1602/sqss": "^0.0.7",
+        "webpack": "^5.0.0",
+        "css-loader": "^6.7.0",
+        "style-loader": "^3.3.0"
+    },
+    "peerDependenciesMeta": {
+        "css-loader": {
+            "optional": true
+        },
+        "style-loader": {
+            "optional": true
+        }
+    }
+}
